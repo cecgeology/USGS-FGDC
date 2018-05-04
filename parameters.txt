@@ -1,0 +1,10 @@
+
+Replace the hard coded ones like these
+     fill="none"
+	 stroke="#231f20"
+	 stroke-width="0.3"
+With parameter ones like these		 
+	fill="param(fill) none" 
+	stroke="param(outline) #231f20" 
+	stroke-width="param(stroke-width) 0.3" 
+

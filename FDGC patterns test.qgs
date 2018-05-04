@@ -1,0 +1,637 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.0.2-Girona">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="PolygonLineforTest_057650ec_89b6_42bf_befc_d321f7cf83e2" name="PolygonLineforTest" providerKey="delimitedtext" source="file:///D:/OneDrive/GIS/QGIS%20Custom/Symbols%20Patterns/USGS/usgs_FGDC/PolygonLineforTest.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=yes" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="PolygonLineforTest_06ce5093_9dd0_4b01_aae9_6231b07c9446" name="PolygonLineforTest" providerKey="ogr" source="./PolygonLineforTest.TAB" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>PolygonLineforTest_06ce5093_9dd0_4b01_aae9_6231b07c9446</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" unit="1" tolerance="12" mode="2" type="1" enabled="0">
+    <individual-layer-settings>
+      <layer-setting id="PolygonLineforTest_06ce5093_9dd0_4b01_aae9_6231b07c9446" units="1" tolerance="12" type="1" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>28.5109776887159434</xmin>
+      <ymin>0.00018039424853646</ymin>
+      <xmax>28.51220872214370061</xmax>
+      <ymax>0.00107415824246372</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="PolygonLineforTest" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="PolygonLineforTest_057650ec_89b6_42bf_befc_d321f7cf83e2"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="PolygonLineforTest" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="PolygonLineforTest_06ce5093_9dd0_4b01_aae9_6231b07c9446"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer refreshOnNotifyMessage="" minScale="1e+8" readOnly="0" maxScale="0" geometry="No geometry" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
+      <id>PolygonLineforTest_057650ec_89b6_42bf_befc_d321f7cf83e2</id>
+      <datasource>file:./PolygonLineforTest.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=yes</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PolygonLineforTest</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"ID"</value>
+        </property>
+      </customproperties>
+      <provider encoding="ISO-8859-9">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pattern">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StrokeRGB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FillRGB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Sizing">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="ID" name="" index="0"/>
+        <alias field="Type" name="" index="1"/>
+        <alias field="Pattern" name="" index="2"/>
+        <alias field="StrokeRGB" name="" index="3"/>
+        <alias field="FillRGB" name="" index="4"/>
+        <alias field="Sizing" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="Type" applyOnUpdate="0" expression=""/>
+        <default field="Pattern" applyOnUpdate="0" expression=""/>
+        <default field="StrokeRGB" applyOnUpdate="0" expression=""/>
+        <default field="FillRGB" applyOnUpdate="0" expression=""/>
+        <default field="Sizing" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="ID" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="Type" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="Pattern" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="StrokeRGB" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="FillRGB" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="Sizing" constraints="0" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="ID" exp="" desc=""/>
+        <constraint field="Type" exp="" desc=""/>
+        <constraint field="Pattern" exp="" desc=""/>
+        <constraint field="StrokeRGB" exp="" desc=""/>
+        <constraint field="FillRGB" exp="" desc=""/>
+        <constraint field="Sizing" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="ID" width="-1" type="field" hidden="0"/>
+          <column name="Type" width="-1" type="field" hidden="0"/>
+          <column name="Pattern" width="-1" type="field" hidden="0"/>
+          <column name="StrokeRGB" width="-1" type="field" hidden="0"/>
+          <column name="FillRGB" width="-1" type="field" hidden="0"/>
+          <column name="Sizing" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"ID"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" minScale="1e+8" readOnly="0" maxScale="0" simplifyAlgorithm="0" geometry="Polygon" simplifyDrawingTol="1" labelsEnabled="1" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0">
+      <extent>
+        <xmin>10</xmin>
+        <ymin>10</ymin>
+        <xmax>20</xmax>
+        <ymax>765</ymax>
+      </extent>
+      <id>PolygonLineforTest_06ce5093_9dd0_4b01_aae9_6231b07c9446</id>
+      <datasource>./PolygonLineforTest.TAB</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PolygonLineforTest</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=36 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3120</srsid>
+          <srid>32636</srid>
+          <authid>EPSG:32636</authid>
+          <description>WGS 84 / UTM zone 36N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" minz="0" maxz="0" dimensions="2" minx="0" maxx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins>
+        <join joinLayerId="PolygonLineforTest_057650ec_89b6_42bf_befc_d321f7cf83e2" editable="0" dynamicForm="0" cascadedDelete="0" upsertOnEdit="0" joinFieldName="ID" targetFieldName="id" memoryCache="1"/>
+      </vectorjoins>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" name="0" type="fill" alpha="1">
+            <layer locked="0" class="SVGFill" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="104,80,210,255" k="color"/>
+              <prop v="35,31,32,255" k="outline_color"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="pattern_width_map_unit_scale"/>
+              <prop v="Pixel" k="pattern_width_unit"/>
+              <prop v="@project_folder + '/'+ &quot;PolygonLineforTest_Type&quot; +'/' +  &quot;PolygonLineforTest_Pattern&quot;" k="svgFile"/>
+              <prop v="3x:0,0,0,0,0,0" k="svg_outline_width_map_unit_scale"/>
+              <prop v="MM" k="svg_outline_width_unit"/>
+              <prop v="200" k="width"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties" type="Map">
+                    <Option name="file" type="Map">
+                      <Option name="active" value="true" type="bool"/>
+                      <Option name="expression" value="@project_folder + '/'+ &quot;PolygonLineforTest_Type&quot; +'/' +  &quot;PolygonLineforTest_Pattern&quot;" type="QString"/>
+                      <Option name="type" value="3" type="int"/>
+                    </Option>
+                    <Option name="outlineColor" type="Map">
+                      <Option name="active" value="true" type="bool"/>
+                      <Option name="expression" value="color_rgb( 255,0,0)" type="QString"/>
+                      <Option name="type" value="3" type="int"/>
+                    </Option>
+                  </Option>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <symbol clip_to_extent="1" name="@0@0" type="line" alpha="1">
+                <layer locked="0" class="SimpleLine" pass="0" enabled="1">
+                  <prop v="square" k="capstyle"/>
+                  <prop v="5;2" k="customdash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                  <prop v="MM" k="customdash_unit"/>
+                  <prop v="0" k="draw_inside_polygon"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="35,35,35,255" k="line_color"/>
+                  <prop v="solid" k="line_style"/>
+                  <prop v="0.26" k="line_width"/>
+                  <prop v="MM" k="line_width_unit"/>
+                  <prop v="0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="0" k="use_custom_dash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple">
+        <settings>
+          <text-style fontFamily="Calibri" fontLetterSpacing="0" namedStyle="Regular" textColor="0,0,0,255" fontSize="14" isExpression="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="#ffffff" blendMode="0" fontWordSpacing="0" fontUnderline="0" fontStrikeout="0" fontCapitals="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="PolygonLineforTest_Pattern" fontItalic="0" fontSizeUnit="Point" multilineHeight="1" textOpacity="1">
+            <text-buffer bufferSize="1" bufferDraw="0" bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferJoinStyle="128" bufferOpacity="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferBlendMode="0"/>
+            <background shapeSizeX="0" shapeSizeY="0" shapeOpacity="1" shapeType="0" shapeJoinStyle="64" shapeSizeUnit="MM" shapeSizeType="0" shapeBorderWidth="0" shapeSVGFile="" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeOffsetX="0" shapeOffsetY="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeBlendMode="0" shapeRotation="0" shapeFillColor="255,255,255,255" shapeRotationType="0"/>
+            <shadow shadowDraw="0" shadowOffsetDist="1" shadowScale="100" shadowBlendMode="6" shadowRadiusUnit="MM" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowOffsetUnit="MM" shadowUnder="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadius="1.5" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowRadiusAlphaOnly="0" shadowOpacity="0.7"/>
+            <substitutions/>
+          </text-style>
+          <text-format multilineAlign="4294967295" plussign="0" placeDirectionSymbol="0" addDirectionSymbol="0" rightDirectionSymbol=">" formatNumbers="0" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" decimals="3" wrapChar=""/>
+          <placement fitInPolygonOnly="0" placement="1" repeatDistanceUnits="MM" centroidWhole="1" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleOut="-25" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" offsetUnits="Point" distUnits="MM" rotationAngle="0" centroidInside="0" priority="10" repeatDistance="0" preserveRotation="1" placementFlags="10" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" yOffset="10" maxCurvedCharAngleIn="25" xOffset="10" quadOffset="5"/>
+          <rendering fontMinPixelSize="3" mergeLines="0" minFeatureSize="0" upsidedownLabels="0" scaleVisibility="0" obstacleType="0" limitNumLabels="0" displayAll="0" scaleMax="0" obstacle="1" drawLabels="1" labelPerPart="0" maxNumLabels="2000" obstacleFactor="1" scaleMin="0" zIndex="0" fontMaxPixelSize="10000" fontLimitPixelSize="0"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </labeling>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>id</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeType="MM" height="15" diagramOrientation="Up" labelPlacementMethod="XHeight" enabled="0" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" penWidth="0" barWidth="5" opacity="1" scaleDependency="Area" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" penAlpha="255" minScaleDenominator="0" maxScaleDenominator="1e+8" backgroundColor="#ffffff" backgroundAlpha="255" width="15" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" showAll="1" zIndex="0" placement="0" priority="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PolygonLineforTest_Type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PolygonLineforTest_Pattern">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PolygonLineforTest_StrokeRGB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PolygonLineforTest_FillRGB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PolygonLineforTest_Sizing">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+        <alias field="PolygonLineforTest_Type" name="" index="1"/>
+        <alias field="PolygonLineforTest_Pattern" name="" index="2"/>
+        <alias field="PolygonLineforTest_StrokeRGB" name="" index="3"/>
+        <alias field="PolygonLineforTest_FillRGB" name="" index="4"/>
+        <alias field="PolygonLineforTest_Sizing" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="PolygonLineforTest_Type" applyOnUpdate="0" expression=""/>
+        <default field="PolygonLineforTest_Pattern" applyOnUpdate="0" expression=""/>
+        <default field="PolygonLineforTest_StrokeRGB" applyOnUpdate="0" expression=""/>
+        <default field="PolygonLineforTest_FillRGB" applyOnUpdate="0" expression=""/>
+        <default field="PolygonLineforTest_Sizing" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="PolygonLineforTest_Type" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="PolygonLineforTest_Pattern" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="PolygonLineforTest_StrokeRGB" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="PolygonLineforTest_FillRGB" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="PolygonLineforTest_Sizing" constraints="0" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="PolygonLineforTest_Type" exp="" desc=""/>
+        <constraint field="PolygonLineforTest_Pattern" exp="" desc=""/>
+        <constraint field="PolygonLineforTest_StrokeRGB" exp="" desc=""/>
+        <constraint field="PolygonLineforTest_FillRGB" exp="" desc=""/>
+        <constraint field="PolygonLineforTest_Sizing" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="id" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+          <column name="PolygonLineforTest_Pattern" width="-1" type="field" hidden="0"/>
+          <column name="PolygonLineforTest_StrokeRGB" width="-1" type="field" hidden="0"/>
+          <column name="PolygonLineforTest_FillRGB" width="-1" type="field" hidden="0"/>
+          <column name="PolygonLineforTest_Type" width="-1" type="field" hidden="0"/>
+          <column name="PolygonLineforTest_Sizing" width="-1" type="field" hidden="0"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="PolygonLineforTest_FillRGB" editable="0"/>
+        <field name="PolygonLineforTest_Pattern" editable="0"/>
+        <field name="PolygonLineforTest_Sizing" editable="0"/>
+        <field name="PolygonLineforTest_StrokeRGB" editable="0"/>
+        <field name="PolygonLineforTest_Type" editable="0"/>
+        <field name="PolygonLineforTest_x1" editable="0"/>
+        <field name="PolygonLineforTest_x2" editable="0"/>
+        <field name="PolygonLineforTest_x3" editable="0"/>
+        <field name="PolygonLineforTest_x4" editable="0"/>
+        <field name="PolygonLineforTest_y1" editable="0"/>
+        <field name="PolygonLineforTest_y2" editable="0"/>
+        <field name="PolygonLineforTest_y3" editable="0"/>
+        <field name="PolygonLineforTest_y4" editable="0"/>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="PolygonLineforTest_FillRGB" labelOnTop="0"/>
+        <field name="PolygonLineforTest_Pattern" labelOnTop="0"/>
+        <field name="PolygonLineforTest_Sizing" labelOnTop="0"/>
+        <field name="PolygonLineforTest_StrokeRGB" labelOnTop="0"/>
+        <field name="PolygonLineforTest_Type" labelOnTop="0"/>
+        <field name="PolygonLineforTest_x1" labelOnTop="0"/>
+        <field name="PolygonLineforTest_x2" labelOnTop="0"/>
+        <field name="PolygonLineforTest_x3" labelOnTop="0"/>
+        <field name="PolygonLineforTest_x4" labelOnTop="0"/>
+        <field name="PolygonLineforTest_y1" labelOnTop="0"/>
+        <field name="PolygonLineforTest_y2" labelOnTop="0"/>
+        <field name="PolygonLineforTest_y3" labelOnTop="0"/>
+        <field name="PolygonLineforTest_y4" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="PolygonLineforTest_06ce5093_9dd0_4b01_aae9_6231b07c9446"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+    </Gui>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <PAL>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <SearchMethod type="int">0</SearchMethod>
+    </PAL>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>
